@@ -1,2 +1,2 @@
-# validation-phone
-Validación de número de teléfono
+# phone-validation
+Validación de teléfono
