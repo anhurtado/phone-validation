@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Validación del Teléfono</title>
+  <script src="func.js"></script>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Validación del Teléfono</legend>
+      <label for="txtPhone">Teléfono:</label>
+      <input type="phone" name="txtPhone" id="txtPhone" placeholder="+1 613-995-0253">
+      <input type="button" value="Enviar" onclick="fnValidatePhone()"><br/>
+      <span id="txtMessage"></span>
+    </fieldset>
+  </form>
+</body>
+</html>
